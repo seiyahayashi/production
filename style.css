@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'メイリオ','Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+/*--------------------site--------------------*/
+.site{
+    padding-top: -10px;
+    padding-bottom: 0px;
+}
+
+
+/*--------------------box2--------------------*/
+.box2{
+    background-color: black; 
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+	text-align:center;
+}
+
+.menu li a:hover{
+    background-color: lightgrey;
+}
+
+.menu ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu li{
+    float: left;
+    width: 235px;
+}
+
+/*--------------------box3--------------------*/
+.box3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.kiji h1{
+    margin-top: 0;
+	margin-left:5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+	padding-left:10px;
+	border-bottom: solid 2px black;
+	border-left: solid 4px black;
+}
+
+.kiji p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.kiji img{
+    max-width: 100%;
+    height: auto;
+}
+
+.time{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.time i{
+    margin-right: 5px;
+    color: bisque;
+    font-size: 20px;
+}
+
+/*------------reerence-------------*/
+.reference{
+    height: 400px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color:lightblue;
+}
+
+.reference h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+.reference ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.reference li a{
+    display: block;
+    padding: 5px;
+    color:  black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.reference li a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.reference li:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.reference li{
+    float: left;
+    width: 25%;
+}
+
+.reference img{
+    max-width: 100%;
+    height: 160px;
+    border: none;
+}
+
+.reference .text{
+    font-size: 15px;
+    text-align: center;
+}
+
+.color{
+	color:red;
+}
+
+/*--------------------box4--------------------*/
+.box4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sidemenu{
+    margin-bottom: 30px;
+}
+
+.sidemenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidemenu li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sidemenu li a:hover{
+    background-color: #F3F3F3;
+}
+
+.sidemenu h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: dotted 2px gray;
+    font-size: 20px;
+}
+
+/*------------benkyo-------------*/
+.benkyo{
+    margin-bottom: 30px;
+}
+
+.benkyo ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.benkyo li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.benkyo li a:hover{
+    background-color:#F3F3F3;
+}
+
+.benkyo h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: dotted 2px gray;
+    font-size: 20px;
+}
+
+/*------------college-------------*/
+.college{
+    margin-bottom: 30px;
+}
+
+.college ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.college li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.college li a:hover{
+    background-color: #F3F3F3;
+}
+
+.college h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: dotted 2px gray;
+    font-size: 20px;
+}
+/*--------------------copyright--------------------*/
+.copyright{
+    height:60px;
+	line-height:55px;
+	background-color:black;
+    color: white;
+    font-size: 15px;
+	text-align:center;
+	margin-top:10px;
+}
+
+
+
+
+@media (min-width: 768px){
+    
+.boxA:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+    
+.box3{
+    float: left;
+    width: 70%;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.box4{
+    float: left;
+    width: 30%;
+}
+    
+}
